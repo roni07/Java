@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="293.0" prefWidth="718.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="todolist.FXMLDocumentController">
+   <children>
+      <ListView fx:id="ListTitleView" layoutX="14.0" layoutY="56.0" onMouseClicked="#ListTitleViewAction" prefHeight="200.0" prefWidth="200.0" />
+      <ListView fx:id="ListItemView" layoutX="230.0" layoutY="56.0" onMouseClicked="#ListItemViewAction" prefHeight="200.0" prefWidth="200.0" />
+      <ListView fx:id="CompletedListView" layoutX="490.0" layoutY="56.0" onMouseClicked="#back" prefHeight="200.0" prefWidth="200.0" />
+      <Label layoutX="58.0" layoutY="22.0" text="List Title" />
+      <Label layoutX="316.0" layoutY="31.0" text="List Item" />
+      <Label layoutX="549.0" layoutY="22.0" text="Completed List" />
+   </children>
+</AnchorPane>
